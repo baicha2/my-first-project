@@ -1,0 +1,13 @@
+{
+    "comment": "此文件是每次打包时，编译生成dll之后，由代码自动根据 HybridCLR 配置来写入的，请勿手动修改",
+    "hotfixDllNames": [
+        "assembly-csharp"
+    ],
+    "aotDllNames": [
+        "mscorlib",
+        "system",
+        "systemcore",
+        "newtonsoftjson",
+        "unityenginecoremodule"
+    ]
+}

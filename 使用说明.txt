@@ -1,0 +1,5 @@
+使用Unity2022打开hotUpdate工程，如果是windows平台，需要添加 Windows Build Support (IL2CPP) 模块
+菜单栏 HybridCLR -> Installer 打开 HybridCLR Installer 窗口，点击Install按钮安装插件
+菜单栏 EditorTools -> 生成热更dll+资源包，弹窗点击确定，第一次执行中途会有一个弹窗，点击Yes，生成的热更资源在Data\Package中
+
+打开Launch场景即可正常运行

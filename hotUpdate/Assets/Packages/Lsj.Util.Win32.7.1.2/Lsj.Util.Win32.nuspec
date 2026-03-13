@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Lsj.Util.Win32</id>
+    <version>7.1.2</version>
+    <authors>Lsj.Util.Win32</authors>
+    <description>My Utility For Win32</description>
+    <repository type="git" commit="5b4c3bf6b126a46d0e99d7a656b78faa5c27c561" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Lsj.Util" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Lsj.Util.IL" version="1.0.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Lsj.Util" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Lsj.Util.IL" version="1.0.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0-windows7.0">
+        <dependency id="Lsj.Util" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Lsj.Util.IL" version="1.0.6" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Lsj.Util" version="7.2.0" exclude="Build,Analyzers" />
+        <dependency id="Lsj.Util.IL" version="1.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

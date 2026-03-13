@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+    <!-- 基础系统程序集 (必须保留) -->
+    <assembly fullname="netstandard" preserve="all"/>
+    <assembly fullname="mscorlib" preserve="all"/>
+    <assembly fullname="System" preserve="all"/>
+    <assembly fullname="System.Core" preserve="all"/>
+    <assembly fullname="System.Xml" preserve="all"/>
+    <assembly fullname="System.Data" preserve="all"/>
+    <assembly fullname="System.Runtime.Serialization" preserve="all"/>
+    <assembly fullname="System.Numerics" preserve="all"/>
+    <assembly fullname="System.IO.Compression" preserve="all"/>
+    <assembly fullname="System.Net.Http" preserve="all"/>
+    <assembly fullname="System.Xml.Linq" preserve="all"/>
+    <assembly fullname="Microsoft.CSharp" preserve="all"/>
+    <assembly fullname="System.Runtime" preserve="all"/>
+    <assembly fullname="System.Configuration" preserve="all"/>
+    <assembly fullname="System.Security" preserve="all"/>
+    <assembly fullname="System.Transactions" preserve="all"/>
+    <assembly fullname="System.ComponentModel.DataAnnotations" preserve="all"/>
+
+    <!-- Mono 相关 (Unity 2022 必备) -->
+    <assembly fullname="Mono.Security" preserve="all"/>
+    <assembly fullname="System.Reflection" preserve="all"/>
+    <assembly fullname="System.Reflection.Emit" preserve="all"/>
+    <assembly fullname="System.Reflection.Extensions" preserve="all"/>
+
+    <!-- 第三方库 (常见热更新/数据处理库) -->
+    <assembly fullname="Newtonsoft.Json" preserve="all"/>
+    <assembly fullname="System.Text.Json" preserve="all"/>
+    <assembly fullname="CsvHelper" preserve="all"/>
+    <assembly fullname="Microsoft.Extensions.Configuration" preserve="all"/>
+    <assembly fullname="Microsoft.Extensions.DependencyInjection" preserve="all"/>
+    <assembly fullname="zxing.unity" preserve="all"/>
+    <assembly fullname="UniWebView-CSharp" preserve="all"/>
+    <assembly fullname="DOTween" preserve="all"/>
+    <assembly fullname="DOTween.Modules" preserve="all"/>
+    <assembly fullname="AVProVideo.Extensions.UnityUI" preserve="all"/>
+    <assembly fullname="AVProVideo.Runtime" preserve="all"/>
+    <assembly fullname="Pathfinding" preserve="all"/>
+
+    <assembly fullname="Assembly-Main" preserve="all"/>
+
+    <!-- Unity 核心模块 (2022 完整覆盖) -->
+    <assembly fullname="UnityEngine" preserve="all"/>
+    <assembly fullname="UnityEngine.CoreModule" preserve="all"/>
+    <assembly fullname="UnityEngine.PhysicsModule" preserve="all"/>
+    <assembly fullname="UnityEngine.Physics2DModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UIModule" preserve="all"/>
+    <assembly fullname="UnityEngine.TextRenderingModule" preserve="all"/>
+    <assembly fullname="UnityEngine.AIModule" preserve="all"/>
+    <assembly fullname="UnityEngine.AnimationModule" preserve="all"/>
+    <assembly fullname="UnityEngine.AssetBundleModule" preserve="all"/>
+    <assembly fullname="UnityEngine.TilemapModule" preserve="all"/>
+    <assembly fullname="UnityEngine.GridModule" preserve="all"/>
+    <assembly fullname="UnityEngine.TerrainModule" preserve="all"/>
+    <assembly fullname="UnityEngine.IMGUIModule" preserve="all"/>
+    <assembly fullname="UnityEngine.VFXModule" preserve="all"/>
+    <assembly fullname="UnityEngine.VideoModule" preserve="all"/>
+    <assembly fullname="UnityEngine.InputModule" preserve="all"/>
+    <assembly fullname="UnityEngine.ParticleSystemModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UnityWebRequestModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UnityWebRequestAssetBundleModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UnityWebRequestAudioModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UnityWebRequestTextureModule" preserve="all"/>
+    <assembly fullname="UnityEngine.JSONSerializeModule" preserve="all"/>
+    <assembly fullname="UnityEngine.SubsystemsModule" preserve="all"/>
+    <assembly fullname="UnityEngine.LocalizationModule" preserve="all"/>
+    <assembly fullname="UnityEngine.SpriteShapeModule" preserve="all"/>
+    <assembly fullname="UnityEngine.UIElementsModule" preserve="all"/>
+    <assembly fullname="UnityEngine.StreamingModule" preserve="all"/>
+    <assembly fullname="UnityEngine.SpriteMaskModule" preserve="all"/>
+    <assembly fullname="UnityEngine.TerrainPhysicsModule" preserve="all"/>
+    <assembly fullname="UnityEngine.SharedInternalsModule" preserve="all"/>
+
+    <!-- Unity 2022 新增/关键模块 -->
+    <!-- 2022 VR/XR 支持 -->
+    <!--    <assembly fullname="UnityEngine.XRModule" preserve="all"/> -->
+    <!--    <assembly fullname="UnityEngine.VRModule" preserve="all"/>-->
+    <!--    <assembly fullname="UnityEngine.ARModule" preserve="all"/>-->
+    <assembly fullname="UnityEngine.CrashReportingModule" preserve="all"/>
+    <assembly fullname="UnityEngine.Experimental.GlobalIllumination" preserve="all"/>
+    <assembly fullname="UnityEngine.Experimental.Physics" preserve="all"/>
+
+    <!-- Unity 扩展包 (UI/渲染/工具) -->
+    <assembly fullname="UnityEngine.UI" preserve="all"/>
+    <assembly fullname="Unity.TextMeshPro" preserve="all"/>
+    <assembly fullname="Unity.Timeline" preserve="all"/>
+    <assembly fullname="Unity.Mathematics" preserve="all"/>
+    <assembly fullname="Unity.Burst" preserve="all"/>
+    <assembly fullname="Unity.Burst.Unsafe" preserve="all"/>
+    <assembly fullname="Unity.ResourceManager" preserve="all"/>
+    <assembly fullname="Unity.Addressables" preserve="all"/>
+    <assembly fullname="Unity.Collections" preserve="all"/>
+    <assembly fullname="Unity.Jobs" preserve="all"/>
+    <assembly fullname="Unity.Serialization" preserve="all"/>
+    <assembly fullname="UnityEngine.InputSystem" preserve="all"/>
+    <assembly fullname="UnityEngine.AI" preserve="all"/>
+    <assembly fullname="UnityEngine.Cinemachine" preserve="all"/>
+    <assembly fullname="UnityEngine.PostProcessing" preserve="all"/>
+    
+    
+
+    <!-- 渲染管线 (URP/HDRP) -->
+    <!--    <assembly fullname="Unity.RenderPipelines.Core.Runtime" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.RenderPipelines.Universal.Runtime" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.RenderPipelines.Universal.Editor" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.RenderPipeline.Universal.ShaderLibrary" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.RenderPipelines.HighDefinition.Runtime" preserve="all"/>-->
+
+    <!-- 可视化编程 (Visual Scripting) -->
+    <!--    <assembly fullname="Unity.VisualScripting.Core" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.VisualScripting.Flow" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.VisualScripting.State" preserve="all"/>-->
+
+    <!-- 平台支持 (Android/iOS) -->
+    <!--    <assembly fullname="Unity.Android.Types" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.Android.Gradle" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.iOS" preserve="all"/>-->
+    <!--    <assembly fullname="Unity.iOS.Mono2x" preserve="all"/>-->
+
+    <!-- 热更新框架 (HybridCLR) -->
+    <assembly fullname="HybridCLR.Runtime" preserve="all"/>
+    <assembly fullname="HybridCLR.Editor" preserve="all"/>
+
+    <!-- 用户程序集 (必须保留) -->
+    <assembly fullname="Assembly-CSharp" preserve="all"/>
+    <assembly fullname="Assembly-CSharp-firstpass" preserve="all"/>
+    <assembly fullname="Assembly-CSharp-Editor" preserve="all"/>
+
+    <!-- 关键反射/动态类型保护 (防止反射剔除) -->
+    <type fullname="System.Reflection.*" preserve="all"/>
+    <type fullname="System.Reflection.Emit.*" preserve="all"/>
+    <type fullname="System.ComponentModel.*" preserve="all"/>
+    <type fullname="System.Runtime.Serialization.*" preserve="all"/>
+    <type fullname="System.Threading.*" preserve="all"/>
+    <type fullname="System.Linq.*" preserve="all"/>
+    <type fullname="System.Collections.Generic.*" preserve="all"/>
+    <type fullname="System.Collections.Concurrent.*" preserve="all"/>
+    <type fullname="System.Dynamic.*" preserve="all"/>
+    <type fullname="System.Runtime.CompilerServices.*" preserve="all"/>
+    <type fullname="System.Runtime.InteropServices.*" preserve="all"/>
+    <type fullname="System.Runtime.Serialization.Formatters.Binary.*" preserve="all"/>
+    <type fullname="System.Web.Script.Serialization.*" preserve="all"/>
+    <type fullname="UnityEngine.EventSystems.*" preserve="all"/>
+    <type fullname="UnityEngine.Networking.*" preserve="all"/>
+    <type fullname="UnityEngine.Purchasing.*" preserve="all"/>
+    <type fullname="UnityEngine.Analytics.*" preserve="all"/>
+    <type fullname="UnityEngine.Networking.*" preserve="all"/>
+    <type fullname="UnityEngine.Rendering.*" preserve="all"/>
+    <type fullname="UnityEngine.UI.*" preserve="all"/>
+    <type fullname="UnityEngine.UIElements.*" preserve="all"/>
+    <type fullname="UnityEngine.Tilemaps.*" preserve="all"/>
+    <type fullname="UnityEngine.TextCore.*" preserve="all"/>
+    <type fullname="UnityEditor.*" preserve="all"/> <!-- 仅限编辑器，但热更新需保留 -->
+    <!--    <type fullname="UnityEngine.XR.*" preserve="all"/>-->
+    <!--    <type fullname="UnityEngine.VR.*" preserve="all"/>-->
+    <!--    <type fullname="UnityEngine.AR.*" preserve="all"/>-->
+</linker>

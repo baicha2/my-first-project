@@ -1,0 +1,16 @@
+{
+    "AppConfig": {
+        "Agent": "1",
+        "UnderReviewVersion": "",
+        "UnderReviewVersionMacOS": "",
+        "WebABUrl": "https://vrdown.bjzjxf.com/hotUpdate",
+        "IsDebug": false,
+        "ApiUrlList": [
+            "https://192.168.1.1:80"
+        ]
+    },
+    "BuildConfig": {
+        "ProductName": "测试",
+        "PackageName": "com.test.test"
+    }
+}

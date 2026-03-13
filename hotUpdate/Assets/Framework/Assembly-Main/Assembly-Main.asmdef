@@ -1,0 +1,23 @@
+{
+    "name": "Assembly-Main",
+    "rootNamespace": "",
+    "references": [
+        "GUID:13ba8ce62aa80c74598530029cb2d649",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:0cf7c96cd3029634ebcd5a4a7da481a9",
+        "GUID:516125af965cf0240a73f5ce124b5a2f",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:84651a3751eca9349aac36a66bba901b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
