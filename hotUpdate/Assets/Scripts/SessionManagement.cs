@@ -9,7 +9,7 @@ public class SessionManagement : MonoBehaviour
     public GameObject scene2;
     
 
-
+    
     void Start()
     {
         
@@ -21,7 +21,9 @@ public class SessionManagement : MonoBehaviour
     }
 
 
-
+    /// <summary>
+    /// 面板的切换
+    /// </summary>
     public void clicking() 
     {
         scene1.SetActive(false);

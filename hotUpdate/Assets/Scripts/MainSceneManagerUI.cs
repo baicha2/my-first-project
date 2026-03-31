@@ -27,8 +27,16 @@ public class SceneManagerUI : MonoBehaviour
     public string taskScene = "MainMenu";
 
     [Header("设置面板")]
-    public GameObject SettingsPanel;           //设置面板
+    public GameObject SettingsPanel;
 
+    [Header("设置面板弹窗")]
+    public GameObject SettingsPanel1;
+    public GameObject SettingsPanel2;
+    public GameObject SettingsPanel3;
+
+    public Button Button1;          
+    public Button Button2;          
+    public Button Button3;       
 
 
     void Start()
@@ -56,13 +64,38 @@ public class SceneManagerUI : MonoBehaviour
 
         if (taskButton != null)
             taskButton.onClick.AddListener(() => ChangeScene(taskScene));
+
+
+
+
+
     }
 
+    /// <summary>
+    /// 激活设置面板
+    /// </summary>
     public void OpenTheSettingsPanel() 
     {
        
        SettingsPanel.SetActive(true);      // 激活指定的对象
     }
+
+    /// <summary>
+    /// 激活弹窗123
+    /// </summary>
+    public void OpenTheSettingsPanel1()
+    {
+        SettingsPanel1.SetActive(true);      // 激活设置面板1
+    }
+    public void OpenTheSettingsPanel2()
+    {
+        SettingsPanel2.SetActive(true);      // 激活设置面板2
+    }
+    public void OpenTheSettingsPanel3()
+    {
+        SettingsPanel3.SetActive(true);      // 激活设置面板3
+    }
+
 
 
 
