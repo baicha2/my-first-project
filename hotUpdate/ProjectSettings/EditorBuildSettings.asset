@@ -8,5 +8,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Launch.unity
     guid: b7bd34c5ee55b344786f0b2af18a87a2
+  - enabled: 1
+    path: Assets/Scene/ShopingPage.unity
+    guid: e68ad037e2638e542aeb5181810874a9
+  - enabled: 1
+    path: Assets/Scene/HomePage.unity
+    guid: f23b75e7d273ee440afb8de09a8b8084
+  - enabled: 1
+    path: Assets/Scene/SettingScene.unity
+    guid: cde1fca9c437fce48a16b210aeb80b46
+  - enabled: 1
+    path: Assets/Scene/StartScene.unity
+    guid: 933b18262012f3843846be645fee2416
+  - enabled: 1
+    path: Assets/Scene/TaskScene.unity
+    guid: 14b394595b7146a459ebdb29675c34a3
+  - enabled: 1
+    path: Assets/Scene/TranscriptScene.unity
+    guid: 2bced02b1ade40141ad9d50937e0ad74
+  - enabled: 1
+    path: Assets/Scene/HeroScene.unity
+    guid: 4a3e81b1c3faeef4186f2d9e9f249550
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 3f2839ef3f13281498ffcfb480735056, type: 2}
